@@ -23,7 +23,7 @@ jobs:
       - name: Set up Flutter
         uses: subosito/flutter-action@v2
         with:
-          flutter-version: '3.19.x' # Ya jo version aapka project use kar raha ho
+          flutter-version: '3.24.x' # Ya 'stable' kar dein taaki latest Dart SDK mil sake
           channel: 'stable'
           cache: true
 
@@ -38,3 +38,4 @@ jobs:
         with:
           name: app-release
           path: build/app/outputs/flutter-apk/app-release.apk
+          
